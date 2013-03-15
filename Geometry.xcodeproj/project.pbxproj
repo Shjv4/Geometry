@@ -18,6 +18,14 @@
 		66912F8216F2FACD00A8670F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66912F8116F2FACD00A8670F /* Default-568h@2x.png */; };
 		66912F8516F2FACD00A8670F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66912F8416F2FACD00A8670F /* ViewController.m */; };
 		66912F8816F2FACD00A8670F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66912F8616F2FACD00A8670F /* ViewController.xib */; };
+		66912F9116F2FB5000A8670F /* Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 66912F9016F2FB5000A8670F /* Geometry.m */; };
+		66912F9416F2FFD600A8670F /* Rectangular.m in Sources */ = {isa = PBXBuildFile; fileRef = 66912F9316F2FFD600A8670F /* Rectangular.m */; };
+		66912F9716F3050B00A8670F /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = 66912F9616F3050B00A8670F /* Square.m */; };
+		66912F9A16F305DE00A8670F /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 66912F9916F305DE00A8670F /* Triangle.m */; };
+		66912F9D16F3196C00A8670F /* Ellipse.m in Sources */ = {isa = PBXBuildFile; fileRef = 66912F9C16F3196C00A8670F /* Ellipse.m */; };
+		66912FA016F329BB00A8670F /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 66912F9F16F329BB00A8670F /* Circle.m */; };
+		66912FA316F32CFE00A8670F /* Trapezoid.m in Sources */ = {isa = PBXBuildFile; fileRef = 66912FA216F32CFD00A8670F /* Trapezoid.m */; };
+		66912FA616F3321100A8670F /* Parallelogram.m in Sources */ = {isa = PBXBuildFile; fileRef = 66912FA516F3321100A8670F /* Parallelogram.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +45,22 @@
 		66912F8316F2FACD00A8670F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		66912F8416F2FACD00A8670F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		66912F8716F2FACD00A8670F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		66912F8F16F2FB5000A8670F /* Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geometry.h; sourceTree = "<group>"; };
+		66912F9016F2FB5000A8670F /* Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Geometry.m; sourceTree = "<group>"; };
+		66912F9216F2FFD600A8670F /* Rectangular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangular.h; sourceTree = "<group>"; };
+		66912F9316F2FFD600A8670F /* Rectangular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangular.m; sourceTree = "<group>"; };
+		66912F9516F3050B00A8670F /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		66912F9616F3050B00A8670F /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
+		66912F9816F305DE00A8670F /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		66912F9916F305DE00A8670F /* Triangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Triangle.m; sourceTree = "<group>"; };
+		66912F9B16F3196C00A8670F /* Ellipse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ellipse.h; sourceTree = "<group>"; };
+		66912F9C16F3196C00A8670F /* Ellipse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ellipse.m; sourceTree = "<group>"; };
+		66912F9E16F329BB00A8670F /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		66912F9F16F329BB00A8670F /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		66912FA116F32CFD00A8670F /* Trapezoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trapezoid.h; sourceTree = "<group>"; };
+		66912FA216F32CFD00A8670F /* Trapezoid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trapezoid.m; sourceTree = "<group>"; };
+		66912FA416F3321100A8670F /* Parallelogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parallelogram.h; sourceTree = "<group>"; };
+		66912FA516F3321100A8670F /* Parallelogram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parallelogram.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +107,7 @@
 		66912F7116F2FACD00A8670F /* Geometry */ = {
 			isa = PBXGroup;
 			children = (
+				66912F8E16F2FAE500A8670F /* Classes */,
 				66912F7A16F2FACD00A8670F /* AppDelegate.h */,
 				66912F7B16F2FACD00A8670F /* AppDelegate.m */,
 				66912F8316F2FACD00A8670F /* ViewController.h */,
@@ -105,6 +130,29 @@
 				66912F8116F2FACD00A8670F /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66912F8E16F2FAE500A8670F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				66912F8F16F2FB5000A8670F /* Geometry.h */,
+				66912F9016F2FB5000A8670F /* Geometry.m */,
+				66912F9216F2FFD600A8670F /* Rectangular.h */,
+				66912F9316F2FFD600A8670F /* Rectangular.m */,
+				66912F9516F3050B00A8670F /* Square.h */,
+				66912F9616F3050B00A8670F /* Square.m */,
+				66912F9816F305DE00A8670F /* Triangle.h */,
+				66912F9916F305DE00A8670F /* Triangle.m */,
+				66912F9B16F3196C00A8670F /* Ellipse.h */,
+				66912F9C16F3196C00A8670F /* Ellipse.m */,
+				66912F9E16F329BB00A8670F /* Circle.h */,
+				66912F9F16F329BB00A8670F /* Circle.m */,
+				66912FA116F32CFD00A8670F /* Trapezoid.h */,
+				66912FA216F32CFD00A8670F /* Trapezoid.m */,
+				66912FA416F3321100A8670F /* Parallelogram.h */,
+				66912FA516F3321100A8670F /* Parallelogram.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +224,14 @@
 				66912F7816F2FACD00A8670F /* main.m in Sources */,
 				66912F7C16F2FACD00A8670F /* AppDelegate.m in Sources */,
 				66912F8516F2FACD00A8670F /* ViewController.m in Sources */,
+				66912F9116F2FB5000A8670F /* Geometry.m in Sources */,
+				66912F9416F2FFD600A8670F /* Rectangular.m in Sources */,
+				66912F9716F3050B00A8670F /* Square.m in Sources */,
+				66912F9A16F305DE00A8670F /* Triangle.m in Sources */,
+				66912F9D16F3196C00A8670F /* Ellipse.m in Sources */,
+				66912FA016F329BB00A8670F /* Circle.m in Sources */,
+				66912FA316F32CFE00A8670F /* Trapezoid.m in Sources */,
+				66912FA616F3321100A8670F /* Parallelogram.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
