@@ -28,13 +28,13 @@
     return [NSString stringWithFormat:@"Parallelogram [%f, %f, %f]", _edges[0], _edges[1], _edges[2]];
 }
 
-- (float) calcPerimeter
+- (float) calPerimeter
 {
     return 2 * (_edges[0] + _edges[1]);
 }
 
-- (float) calcArea
+- (float) calArea
 {
-    return _edges[1] * _edges[2];
+    return _edges[0] * _edges[1];
 }
 @end
