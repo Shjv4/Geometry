@@ -32,7 +32,7 @@
 - (float) calArea
 {
     // cong thuc Herone
-    float p = (_edges[1] + _edges[2] + _edges[3])/2;
+    float p = (_edges[0] + _edges[1] + _edges[2])/2;
     return sqrtf(p * (p - _edges[0]) * (p - _edges[1]) * (p - _edges[2]));
 }
 @end
